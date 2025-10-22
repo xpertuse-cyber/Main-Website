@@ -2,12 +2,16 @@
 import { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
 import { Sparkles } from "lucide-react";
+import AkshayRajLogo from "/src/assets/AkshayRaj-Graphics.jpg";
+import CerrebroLogo from "/src/assets/classlogo.jpg";
+import DinexprtLogo from "/src/assets/Dinexprt.jpg";
+import MoreGardensLogo from "/src/assets/More-garden.png";
 
 const clients = [
-  { id: 1, name: "AkshayRaj Graphics", logo: "/src/assets/AkshayRaj-Graphics.jpg" },
-  { id: 2, name: "Cerrebro Tutorials", logo: "/src/assets/classlogo.jpg" },
-  { id: 3, name: "Dinexprt", logo: "/src/assets/Dinexprt.jpg" },
-  { id: 4, name: "More Gardens", logo: "/src/assets/More-garden.png" },
+  { id: 1, name: "AkshayRaj Graphics", logo: AkshayRajLogo },
+  { id: 2, name: "Cerrebro Tutorials", logo: CerrebroLogo },
+  { id: 3, name: "Dinexprt", logo: DinexprtLogo },
+  { id: 4, name: "More Gardens", logo: MoreGardensLogo },
 ];
 
 export default function ClientStrip() {
