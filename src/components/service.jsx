@@ -72,7 +72,7 @@ export default function Services() {
             className="text-4xl md:text-5xl font-bold mb-4"
           >
             <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-              Our Clients
+              Our Services
             </span>
           </motion.h2>
         </div>

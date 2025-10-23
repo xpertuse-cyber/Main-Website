@@ -82,9 +82,6 @@ const Modal = ({ isOpen, onClose, title, children, icon: Icon = FileText }) => {
           {/* Footer */}
           <div className="sticky bottom-0 bg-gray-50 border-t border-gray-200 px-6 py-2 sm:px-8 sm:py-2">
             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
-              <p className="text-sm text-gray-500">
-                Last updated: September 26, 2025
-              </p>
               <button
                 onClick={onClose}
                 className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2.5 rounded-xl font-medium hover:shadow-lg transition-all duration-300 transform hover:scale-105"
