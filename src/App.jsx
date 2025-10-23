@@ -2,6 +2,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import RootLayout from "./layout/Rootlayout";
 import Home from "./pages/home";
+import SEO from "./components/SEO";
 
 const router = createBrowserRouter([
   {

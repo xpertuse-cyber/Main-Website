@@ -2,9 +2,171 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    
+    <!-- ========== FAVICON SECTION ========== -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    
+    <!-- ========== VIEWPORT & RESPONSIVE ========== -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    
+    <!-- ========== PRIMARY META TAGS ========== -->
+    <title>Xpertuse.com - Cost-Effective IT Solutions for Growing Businesses</title>
+    <meta name="title" content="Xpertuse.com - Cost-Effective IT Solutions for Growing Businesses" />
+    <meta name="description" content="Xpertuse Technologies provides professional IT solutions including custom website development, mobile app development, and digital transformation services. Transform your business with our expert team in Pune, India." />
+    <meta name="keywords" content="Xpertuse, IT solutions, web development, mobile app development, custom websites, business websites, digital transformation, Pune IT company, software development, React development, MERN stack, affordable IT services" />
+    <meta name="author" content="Xpertuse Technologies Pvt. Ltd." />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+    
+    <!-- ========== OPEN GRAPH META TAGS (Facebook, LinkedIn) ========== -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.xpertuse.com/" />
+    <meta property="og:title" content="Xpertuse.com - Cost-Effective IT Solutions for Growing Businesses" />
+    <meta property="og:description" content="Transform your business with professional IT solutions. Custom websites, mobile apps, and digital services from Xpertuse Technologies." />
+    <meta property="og:image" content="https://www.xpertuse.com/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Xpertuse Technologies" />
+    <meta property="og:locale" content="en_IN" />
+    
+    <!-- ========== TWITTER CARD META TAGS ========== -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://www.xpertuse.com/" />
+    <meta name="twitter:title" content="Xpertuse.com - IT Solutions for Growing Businesses" />
+    <meta name="twitter:description" content="Professional IT solutions including custom websites, mobile apps, and digital transformation services." />
+    <meta name="twitter:image" content="https://www.xpertuse.com/twitter-image.png" />
+    <meta name="twitter:site" content="@xpertuse" />
+    <meta name="twitter:creator" content="@xpertuse" />
+    
+    <!-- ========== CANONICAL URL ========== -->
+    <link rel="canonical" href="https://www.xpertuse.com/" />
+    
+    <!-- ========== STRUCTURED DATA (Schema.org JSON-LD) ========== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Xpertuse Technologies Pvt. Ltd.",
+      "alternateName": "Xpertuse",
+      "url": "https://www.xpertuse.com",
+      "logo": "https://www.xpertuse.com/logo.png",
+      "description": "Professional IT solutions provider offering custom website development, mobile app development, and digital transformation services for growing businesses.",
+      "email": "hello.xpertuse@gmail.com",
+      "telephone": "+91-9028251272",
+      "address": {
+        "@type": "Gopalpatti",
+        "streetAddress": "Manjiri Road, Manjiri Bk, Hadapsar",
+        "addressLocality": "Pune",
+        "addressRegion": "Maharashtra",
+        "postalCode": "412028",
+        "addressCountry": "IN"
+      },
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=61582082315834",
+        "https://x.com/xpertuse",
+        "https://www.linkedin.com/in/xpert-use-86431938a/",
+        "https://www.instagram.com/xpertuse/",
+        "https://www.youtube.com/channel/UCZfxOIqw1pR76s3cJwQDlCQ"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9028251272",
+        "contactType": "Customer Service",
+        "areaServed": "IN",
+        "availableLanguage": ["English", "Hindi", "Marathi"]
+      }
+    }
+    </script>
+    
+    <!-- ========== LOCAL BUSINESS SCHEMA ========== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Xpertuse Technologies Pvt. Ltd.",
+      "image": "https://www.xpertuse.com/logo.png",
+      "@id": "https://www.xpertuse.com",
+      "url": "https://www.xpertuse.com",
+      "telephone": "+91-9028251272",
+      "priceRange": "$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Manjiri Road, Manjiri BK",
+        "addressLocality": "Pune",
+        "addressRegion": "MH",
+        "postalCode": "412028",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 18.509809 / N 18° 30' 35.312'',
+        "longitude": 73.962700 / E 73° 57' 45.719''
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "10:00",
+        "closes": "18:00"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "50"
+      }
+    }
+    </script>
+    
+    <!-- ========== WEBSITE SCHEMA ========== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Xpertuse Technologies",
+      "url": "https://www.xpertuse.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.xpertuse.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    
+    <!-- ========== BREADCRUMB SCHEMA ========== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.xpertuse.com"
+      }]
+    }
+    </script>
+    
+    <!-- ========== PRECONNECT FOR PERFORMANCE ========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- ========== THEME COLOR FOR MOBILE BROWSERS ========== -->
+    <meta name="theme-color" content="#2563eb" />
+    <meta name="msapplication-TileColor" content="#2563eb" />
+    
+    <!-- ========== ADDITIONAL SEO TAGS ========== -->
+    <meta name="rating" content="general" />
+    <meta name="distribution" content="global" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   </head>
   <body>
     <div id="root"></div>

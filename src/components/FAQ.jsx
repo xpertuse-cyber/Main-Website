@@ -3,6 +3,7 @@ import { useState } from "react";
 import { faqs } from "../data/faq";
 import { ChevronDown, Search, HelpCircle, Star } from "lucide-react";
 import { handleWhatsApp } from "../lib/actions";
+import SEO from "./SEO";
 
 export default function FAQ() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -33,6 +34,13 @@ export default function FAQ() {
   };
 
   return (
+    <>
+      <SEO 
+        title="Frequently Asked Questions - Xpertuse Technologies"
+        description="Find answers to common questions about Xpertuse's IT services, web development, mobile apps, pricing, timelines, and support. Get clarity before starting your project."
+        keywords="Xpertuse FAQ, IT services questions, web development pricing, mobile app development timeline, technical support, project delivery"
+        url="https://xpertuse.com/"
+      />
     <section id="FAQ" className="relative py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50/30 via-white to-purple-50/30" />
@@ -200,6 +208,6 @@ export default function FAQ() {
           </div>
         </div>
       </div>  
-    </section>
+    </section></>
   );
 }

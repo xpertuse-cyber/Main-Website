@@ -1,5 +1,6 @@
 // src/components/About.jsx
 import { useEffect, useState } from "react";
+import SEO from "./SEO";
 
 function AnimatedCounter({ to = 0, duration = 1500, suffix = "" }) {
   const [value, setValue] = useState(0);
@@ -63,6 +64,12 @@ export default function About() {
   ];
 
   return (
+    <>
+    <SEO 
+        title="Know Us - Xpertuse Technologies"
+        description="Learn about Xpertuse Technologies - your trusted partner for cost-effective IT solutions in Pune, India"
+        url="https://xpertuse.com/"
+      />
     <section
       id="about"
       className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-50 via-white to-purple-50"
@@ -173,6 +180,6 @@ export default function About() {
           {/* End Right */}
         </div>
       </div>
-    </section>
+    </section></>
   );
 }

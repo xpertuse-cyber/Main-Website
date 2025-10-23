@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { MessageCircle, Phone, Mail, MapPin, Clock, Send, ShieldCheck, Sparkles } from "lucide-react";
 import { handleWhatsApp, handleCall, handleEmail } from "../lib/actions";
+import SEO from "./SEO";
 
 function buildMessage({ name, email, whatsapp, projectType, requirements }) {
   return `Hi! I'm ${name}.
@@ -44,6 +45,13 @@ export default function Contact() {
   };
 
   return (
+    <>
+    <SEO 
+        title="Contact Us - Xpertuse Technologies"
+        description="Contact Xpertuse Technologies for your IT needs. Located in Pune, India. Email: hello@xpertuse.com. Get free consultation for web development, mobile apps, and digital services."
+        keywords="contact Xpertuse, Pune IT company contact, get quote, free consultation, IT services inquiry, web development contact, Mr. Sahil Thonge, "
+        url="https://xpertuse.com/"
+      />
     <section id="contact" className="relative overflow-hidden py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 via-white to-purple-50">
       {/* Background accents */}
       <div className="pointer-events-none absolute inset-0">
@@ -290,6 +298,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-    </section>
+    </section></>
   );
 }

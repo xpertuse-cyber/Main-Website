@@ -5,7 +5,7 @@ import { scrollToSection } from "../lib/actions";
 import { useActiveSection } from "../lib/hooks";
 import logo from "../assets/XU.png"; // Import your logo from assets
 
-const sections = ["home", "services", "about", "our clients", "FAQ", "contact"];
+const sections = ["home", "services", "our clients", "about", "FAQ", "contact"];
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

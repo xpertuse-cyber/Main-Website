@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { handleWhatsApp } from "../lib/actions";
 import { useEffect, useState, useRef } from "react";
+import SEO from "./SEO";
 
 
 export default function Services() {
@@ -56,6 +57,13 @@ export default function Services() {
 
 
   return (
+    <>
+    <SEO 
+        title="Our Services - Xpertuse Technologies"
+        description="Custom website development, mobile apps, and digital transformation services for growing businesses"
+        keywords="web development, mobile apps, IT services, custom software"
+        url="https://xpertuse.com/"
+      />
     <section 
       ref={sectionRef}
       id="services" 
@@ -128,7 +136,7 @@ export default function Services() {
           ></div>
         ))}
       </div>
-    </section>
+    </section> </>
   );
 }
 
